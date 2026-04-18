@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "emoji": "^0.3.2",
+    "emojione": "^4.5.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "nsfwjs": "^4.1.0",
+    "sharp": "^0.33.4"
+  }
+}
