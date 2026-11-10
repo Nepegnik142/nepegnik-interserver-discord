@@ -1,0 +1,23 @@
+{
+  "name": "nepegnik-interserver",
+  "version": "3.5.1",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.20.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check commands.js && node --check relay.js && node --check voice.js && node --check web.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "ws": "^8.22.0"
+  },
+  "description": "InterServer Discord bot with modular payment providers and 2328.io integration"
+}

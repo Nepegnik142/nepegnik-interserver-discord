@@ -1,0 +1,1 @@
+const store={relayChannels:{},profiles:{},roles:{},bans:{},voice:{}};module.exports={store};

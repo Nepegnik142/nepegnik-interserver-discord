@@ -1,0 +1,213 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@12.0.2
+2 info using node@v22.23.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/tmp/tmp.tdj3trtu57
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install mysql2 express discord.js crypto ws
+8 verbose argv "install" "--" "mysql2" "express" "discord.js" "crypto" "ws"
+9 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2026-09-19T08_39_26_954Z-
+10 verbose logfile /home/container/.npm/_logs/2026-09-19T08_39_26_954Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:549453824 maxSize:137363456 maxEntrySize:68681728
+14 silly idealTree buildDeps
+15 silly fetch manifest crypto@^1.0.1
+16 silly packumentCache full:https://registry.npmjs.org/crypto cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/crypto 81ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/crypto set size:8031 disposed:false
+19 silly fetch manifest discord.js@^14.27.0
+20 silly packumentCache full:https://registry.npmjs.org/discord.js cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/discord.js 41ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/discord.js set size:8738915 disposed:false
+23 silly fetch manifest express@^5.2.1
+24 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/express 51ms (cache updated)
+26 silly packumentCache full:https://registry.npmjs.org/express set size:undefined disposed:false
+27 silly fetch manifest mysql2@^3.24.4
+28 silly packumentCache full:https://registry.npmjs.org/mysql2 cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/mysql2 29ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/mysql2 set size:1007591 disposed:false
+31 silly fetch manifest @types/node@>= 8
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 170ms (cache updated)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+35 silly fetch manifest ws@^8.21.3
+36 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/ws 24ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/ws set size:447661 disposed:false
+39 silly fetch manifest bufferutil@^4.0.1
+40 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/bufferutil 22ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:52668 disposed:false
+43 silly fetch manifest utf-8-validate@>=5.0.2
+44 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 20ms (cache revalidated)
+46 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:77012 disposed:false
+47 silly placeDep ROOT crypto@1.0.1 REPLACE for: nepegnik-interserver@3.5.1 want: ^1.0.1
+48 silly placeDep ROOT discord.js@14.27.0 REPLACE for: nepegnik-interserver@3.5.1 want: ^14.27.0
+49 silly placeDep ROOT express@5.2.1 REPLACE for: nepegnik-interserver@3.5.1 want: ^5.2.1
+50 silly placeDep ROOT mysql2@3.24.4 REPLACE for: nepegnik-interserver@3.5.1 want: ^3.24.4
+51 silly placeDep ROOT ws@8.21.3 REPLACE for: nepegnik-interserver@3.5.1 want: ^8.21.3
+52 silly reify moves {}
+53 silly audit bulk request {
+53 silly audit   '@discordjs/builders': [ '1.14.1' ],
+53 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+53 silly audit   '@discordjs/formatters': [ '0.6.2' ],
+53 silly audit   '@discordjs/rest': [ '2.6.3' ],
+53 silly audit   '@discordjs/util': [ '1.2.0' ],
+53 silly audit   '@discordjs/voice': [ '0.19.2' ],
+53 silly audit   '@discordjs/ws': [ '1.2.3' ],
+53 silly audit   '@emnapi/core': [ '1.11.3' ],
+53 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+53 silly audit   '@emnapi/wasi-threads': [ '1.2.3' ],
+53 silly audit   '@napi-rs/wasm-runtime': [ '1.2.2' ],
+53 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+53 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+53 silly audit   '@sapphire/snowflake': [ '3.5.5' ],
+53 silly audit   '@snazzah/davey': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-android-arm-eabi': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-android-arm64': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-darwin-arm64': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-darwin-x64': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-freebsd-x64': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-linux-arm-gnueabihf': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-linux-arm64-gnu': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-linux-arm64-musl': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-linux-x64-gnu': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-linux-x64-musl': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-wasm32-wasi': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-win32-arm64-msvc': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-win32-ia32-msvc': [ '0.1.12' ],
+53 silly audit   '@snazzah/davey-win32-x64-msvc': [ '0.1.12' ],
+53 silly audit   '@tybys/wasm-util': [ '0.10.3' ],
+53 silly audit   '@types/node': [ '26.2.0' ],
+53 silly audit   '@types/ws': [ '8.18.1' ],
+53 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.7' ],
+53 silly audit   accepts: [ '2.0.0' ],
+53 silly audit   'aws-ssl-profiles': [ '1.1.2' ],
+53 silly audit   'body-parser': [ '2.3.0' ],
+53 silly audit   'content-type': [ '2.0.0', '1.0.5' ],
+53 silly audit   bytes: [ '3.1.2' ],
+53 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+53 silly audit   'call-bound': [ '1.0.4' ],
+53 silly audit   'content-disposition': [ '1.1.0' ],
+53 silly audit   cookie: [ '0.7.2' ],
+53 silly audit   'cookie-signature': [ '1.2.2' ],
+53 silly audit   debug: [ '4.4.3' ],
+53 silly audit   depd: [ '2.0.0' ],
+53 silly audit   'discord-api-types': [ '0.38.53' ],
+53 silly audit   dotenv: [ '17.4.2' ],
+53 silly audit   'dunder-proto': [ '1.0.1' ],
+53 silly audit   'ee-first': [ '1.1.1' ],
+53 silly audit   encodeurl: [ '2.0.0' ],
+53 silly audit   'es-define-property': [ '1.0.1' ],
+53 silly audit   'es-errors': [ '1.3.0' ],
+53 silly audit   'es-object-atoms': [ '1.1.2' ],
+53 silly audit   'escape-html': [ '1.0.3' ],
+53 silly audit   etag: [ '1.8.1' ],
+53 silly audit   'fast-deep-equal': [ '3.1.3' ],
+53 silly audit   finalhandler: [ '2.1.1' ],
+53 silly audit   forwarded: [ '0.2.0' ],
+53 silly audit   fresh: [ '2.0.0' ],
+53 silly audit   'function-bind': [ '1.1.2' ],
+53 silly audit   'generate-function': [ '2.3.1' ],
+53 silly audit   'get-intrinsic': [ '1.3.0' ],
+53 silly audit   'get-proto': [ '1.0.1' ],
+53 silly audit   gopd: [ '1.2.0' ],
+53 silly audit   'has-symbols': [ '1.1.0' ],
+53 silly audit   hasown: [ '2.0.4' ],
+53 silly audit   'http-errors': [ '2.0.1' ],
+53 silly audit   'iconv-lite': [ '0.7.3' ],
+53 silly audit   inherits: [ '2.0.4' ],
+53 silly audit   'ipaddr.js': [ '1.9.1' ],
+53 silly audit   'is-promise': [ '4.0.0' ],
+53 silly audit   'is-property': [ '1.0.2' ],
+53 silly audit   lodash: [ '4.18.1' ],
+53 silly audit   'lodash.snakecase': [ '4.1.1' ],
+53 silly audit   long: [ '5.3.2' ],
+53 silly audit   'lru.min': [ '1.1.4' ],
+53 silly audit   'magic-bytes.js': [ '1.13.1' ],
+53 silly audit   'math-intrinsics': [ '1.1.0' ],
+53 silly audit   'media-typer': [ '1.1.1' ],
+53 silly audit   'merge-descriptors': [ '2.0.0' ],
+53 silly audit   'mime-db': [ '1.54.0' ],
+53 silly audit   'mime-types': [ '3.0.2' ],
+53 silly audit   ms: [ '2.1.3' ],
+53 silly audit   'named-placeholders': [ '1.1.6' ],
+53 silly audit   negotiator: [ '1.0.0' ],
+53 silly audit   'object-inspect': [ '1.13.4' ],
+53 silly audit   'on-finished': [ '2.4.1' ],
+53 silly audit   once: [ '1.4.0' ],
+53 silly audit   parseurl: [ '1.3.3' ],
+53 silly audit   'path-to-regexp': [ '8.4.2' ],
+53 silly audit   'prism-media': [ '1.3.5' ],
+53 silly audit   'proxy-addr': [ '2.0.7' ],
+53 silly audit   qs: [ '6.15.3' ],
+53 silly audit   'range-parser': [ '1.3.0' ],
+53 silly audit   'raw-body': [ '3.0.2' ],
+53 silly audit   router: [ '2.2.0' ],
+53 silly audit   'safer-buffer': [ '2.1.2' ],
+53 silly audit   send: [ '1.2.1' ],
+53 silly audit   'serve-static': [ '2.2.1' ],
+53 silly audit   setprototypeof: [ '1.2.0' ],
+53 silly audit   'side-channel': [ '1.1.1' ],
+53 silly audit   'side-channel-list': [ '1.0.1' ],
+53 silly audit   'side-channel-map': [ '1.0.1' ],
+53 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+53 silly audit   'sql-escaper': [ '1.5.1' ],
+53 silly audit   statuses: [ '2.0.2' ],
+53 silly audit   toidentifier: [ '1.0.1' ],
+53 silly audit   'ts-mixer': [ '6.0.4' ],
+53 silly audit   tslib: [ '2.8.1' ],
+53 silly audit   'type-is': [ '2.1.0' ],
+53 silly audit   undici: [ '6.28.0' ],
+53 silly audit   'undici-types': [ '8.3.0' ],
+53 silly audit   unpipe: [ '1.0.0' ],
+53 silly audit   vary: [ '1.1.2' ],
+53 silly audit   wrappy: [ '1.0.2' ],
+53 silly audit   crypto: [ '1.0.1' ],
+53 silly audit   'discord.js': [ '14.27.0' ],
+53 silly audit   express: [ '5.2.1' ],
+53 silly audit   mysql2: [ '3.24.4' ],
+53 silly audit   ws: [ '8.21.3' ]
+53 silly audit }
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 176ms
+55 silly audit report {
+55 silly audit report   qs: [
+55 silly audit report     {
+55 silly audit report       id: 1158506,
+55 silly audit report       url: 'https://github.com/advisories/GHSA-x5fp-wj9c-mxmx',
+55 silly audit report       title: 'qs array-limit bypass via bracket-key comma parsing',
+55 silly audit report       severity: 'moderate',
+55 silly audit report       vulnerable_versions: '>=6.14.2 <=6.15.3',
+55 silly audit report       cwe: [Array],
+55 silly audit report       cvss: [Object]
+55 silly audit report     },
+55 silly audit report     {
+55 silly audit report       id: 1158507,
+55 silly audit report       url: 'https://github.com/advisories/GHSA-4mjr-xmp4-gh2g',
+55 silly audit report       title: 'qs: Denial of Service via Attacker Controlled isBuffer',
+55 silly audit report       severity: 'moderate',
+55 silly audit report       vulnerable_versions: '>=2.2.5 <6.16.0',
+55 silly audit report       cwe: [Array],
+55 silly audit report       cvss: [Object]
+55 silly audit report     }
+55 silly audit report   ]
+55 silly audit report }
+56 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+57 http cache https://registry.npmjs.org/qs 2ms (cache hit)
+58 silly packumentCache corgi:https://registry.npmjs.org/qs set size:149425 disposed:false
+59 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+60 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+61 http cache https://registry.npmjs.org/body-parser 2ms (cache hit)
+62 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:82509 disposed:false
+63 http cache https://registry.npmjs.org/express 4ms (cache hit)
+64 silly packumentCache corgi:https://registry.npmjs.org/express set size:341170 disposed:false
+65 verbose cwd /home/container
+66 verbose os Linux 6.8.0-111-generic
+67 verbose node v22.23.2
+68 verbose npm  v12.0.2
+69 verbose exit 0
+70 info ok

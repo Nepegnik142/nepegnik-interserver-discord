@@ -1,0 +1,10 @@
+{
+    "name": "nepegnik/nepegnik-interserver-site",
+    "description": "Сайт для межсерверного бота NEPEGNIK INTERSERVER Discord",
+    "require": {
+        "textalk/websocket": "^1.5"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
